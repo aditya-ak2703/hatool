@@ -148,6 +148,5 @@
     }},
   "cli": {
     "analytics": false
-  },
-  "defaultProject": "hatool-tester"
+  }
 }
