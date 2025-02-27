@@ -7,13 +7,13 @@ import { MessageFromComponent } from './message-from/message-from.component';
 import { MessageToComponent } from './message-to/message-to.component';
 import { MessageTypingComponent } from './message-typing/message-typing.component';
 import { MessageOptionsComponent } from './message-options/message-options.component';
-import { BrowserModule } from '@angular/platform-browser';
 import { MessageUploaderComponent } from './message-uploader/message-uploader.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MessageMultiOptionsComponent } from './message-multi-options/message-multi-options.component';
 import { MessageCustomComponentComponent } from './message-custom-component/message-custom-component.component';
 import { MessageCustomComponentAuxDirective } from './message-custom-component-aux.directive';
 import { MessageSwitchComponent } from './message-switch/message-switch.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -32,7 +32,7 @@ import { MessageSwitchComponent } from './message-switch/message-switch.componen
     MessageSwitchComponent,
   ],
   imports: [
-    BrowserModule,
+    CommonModule,
     HttpClientModule
   ],
   exports: [HatoolLibComponent]
