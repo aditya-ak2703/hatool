@@ -1,0 +1,57 @@
+{
+  "name": "hatool",
+  "description": "Powerful Scripted ChatBot framework",
+  "version": "0.9.2",
+  "keywords": [
+    "chat",
+    "bot",
+    "angular"
+  ],
+  "maintainers": [
+    {
+      "name": "Adam Kariv",
+      "email": "adam.kariv@gmail.com",
+      "web": "https://github.com/akariv"
+    }
+  ],
+  "demos": [
+    "https://akariv.github.io/hatool"
+  ],
+  "bugs": {
+    "web": "https://github.com/akariv/hatool/issues"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/akariv/hatool.git"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "https://github.com/akariv/hatool"
+    }
+  ],
+  "homepage": "https://github.com/akariv/hatool",
+  "peerDependencies": {
+    "@angular/common": ">=17",
+    "@angular/core": ">=17"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "module": "fesm2022/hatool.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/hatool.mjs",
+      "esm": "./esm2022/hatool.mjs",
+      "default": "./fesm2022/hatool.mjs"
+    }
+  },
+  "sideEffects": false
+}
